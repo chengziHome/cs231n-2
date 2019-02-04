@@ -1,0 +1,5 @@
+assignment2训练fc_net的网络的收获
+reg太大了，会抑制acc的提高，就算train——val之间没有gap又有什么意义呢，所以我据的适当的
+gap是可以的，我们的宗旨是别让overfit太过分，但是有点其实是好事，说明update_rule是有效的。
+batch_norm能够明显的降低overfit并提高一定的accuracy
+dropout才是更能明显的抑制overfit
